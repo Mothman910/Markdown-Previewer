@@ -58,6 +58,7 @@ export default function QuoteMachine() {
   const options = {
     mangle: false,
     headerIds: false,
+    breaks: true,
   };
 
   return (
