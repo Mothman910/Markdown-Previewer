@@ -1,0 +1,38 @@
+// Example of a custom component
+
+.card {
+  --#{$prefix}card-spacer-y: #{$card-spacer-y * 0.8};
+  --#{$prefix}card-spacer-x: #{$card-spacer-x * 0.8};
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#editor-window {
+  margin-bottom: 1.5rem;
+}
+
+#editor {
+  min-height: 200px;
+}
+
+.toggle-button {
+  --bs-btn-close-bg: url(/assets/svg/Arrows_2.svg);
+}
+
+#markdown-previever {
+  height: 100%;
+  max-height: min-content;
+}
+
+.min-h-100 {
+  min-height: fit-content;
+}
+
+#preview img {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
+}
